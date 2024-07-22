@@ -13,9 +13,10 @@ greeter.greet()
 # greet()
 
 # Additional Activity create a calculator class in the module
-
-
+# import greeter
+calculator = greeter.Calculator(2,3)
+result = calculator.calculate()
 # Use the new class to return a score to a user
 
 
-print(f"Result of addition: ")
+print(f"Result of addition: {result}")
